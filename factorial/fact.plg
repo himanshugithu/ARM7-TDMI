@@ -1,0 +1,137 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Himyansu\ARM program\factorial\fact.uvproj
+Project File Date:  09/11/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling fact.asm...
+fact.asm(4): error: A1163E: Unknown opcode LOOP , expecting opcode or Macro
+fact.asm(8): error: A1163E: Unknown opcode STOP , expecting opcode or Macro
+Target not created
+assembling fact.asm...
+fact.asm(4): error: A1163E: Unknown opcode LOOP , expecting opcode or Macro
+fact.asm(8): error: A1163E: Unknown opcode STOP , expecting opcode or Macro
+fact.asm - 2 Error(s), 0 Warning(s).
+assembling fact.asm...
+fact.asm(4): error: A1163E: Unknown opcode LOOP , expecting opcode or Macro
+fact.asm - 1 Error(s), 0 Warning(s).
+assembling fact.asm...
+fact.asm - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=28 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+assembling fact.asm...
+fact.asm - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=28 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=28 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=28 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=28 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=28 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling fact.asm...
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+assembling fact.asm...
+fact.asm - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+assembling fact.asm...
+fact.asm - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).
+assembling fact.asm...
+fact.asm - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+fact.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fact.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+"fact.axf" - 0 Error(s), 2 Warning(s).

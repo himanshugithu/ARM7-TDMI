@@ -1,0 +1,66 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET , CODE, READONLY
+    2 00000000         
+    3 00000000 E3A00004        MOV              R0,#4
+    4 00000004 E3A01001        MOV              R1,#01
+    5 00000008 E3500001        CMP              R0,#1
+    6 0000000C 0A000004        BEQ              JUMP
+    7 00000010 E0010190 
+                       LOOP    MUL              R1,R0,R1
+    8 00000014 E2400001        SUB              R0,R0,#01
+    9 00000018 E3500001        CMP              R0,#01
+   10 0000001C 1AFFFFFB        BNE              LOOP
+   11 00000020         
+   12 00000020 EAFFFFFE 
+                       STOP    B                STOP        ; WAIT HERE
+   13 00000024 E3A01001 
+                       JUMP    MOV              R1,#01
+   14 00000028                 END
+Command Line: --debug --xref --apcs=interwork --depend=fact.d -ofact.o -IC:\Kei
+l\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --list=fac
+t.lst fact.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+JUMP 00000024
+
+Symbol: JUMP
+   Definitions
+      At line 13 in file fact.asm
+   Uses
+      At line 6 in file fact.asm
+Comment: JUMP used once
+LOOP 00000010
+
+Symbol: LOOP
+   Definitions
+      At line 7 in file fact.asm
+   Uses
+      At line 10 in file fact.asm
+Comment: LOOP used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file fact.asm
+   Uses
+      None
+Comment: RESET unused
+STOP 00000020
+
+Symbol: STOP
+   Definitions
+      At line 12 in file fact.asm
+   Uses
+      At line 12 in file fact.asm
+Comment: STOP used once
+4 symbols
+334 symbols in table
