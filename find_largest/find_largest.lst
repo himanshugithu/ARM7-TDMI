@@ -1,0 +1,58 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET, CODE, READONLY
+    2 00000000         
+    3 00000000 E3A00101        LDR              R0,=0X40000000
+    4 00000004 E3A01000        MOV              R1,0X00
+    5 00000008 E3A02000        MOV              r2,0x00
+    6 0000000C E3A03009        MOV              R3,0X09
+    7 00000010         
+    8 00000010 E4D01001 
+                       JUMP    LDRB             R1,[R0],#1
+    9 00000014 E1510002        CMP              R1,R2
+   10 00000018 51A02001        MOVPL            R2,R1
+   11 0000001C E2533001        SUBS             R3,R3,#01
+   12 00000020 1AFFFFFA        BNE              JUMP
+   13 00000024 E5C02000        STRB             R2,[R0]
+   14 00000028 EAFFFFFE 
+                       HERE    B                HERE
+   15 0000002C                 END
+Command Line: --debug --xref --apcs=interwork --depend=find_largest.d -ofind_la
+rgest.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Ph
+ilips --list=find_largest.lst find_largest.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+HERE 00000028
+
+Symbol: HERE
+   Definitions
+      At line 14 in file find_largest.asm
+   Uses
+      At line 14 in file find_largest.asm
+Comment: HERE used once
+JUMP 00000010
+
+Symbol: JUMP
+   Definitions
+      At line 8 in file find_largest.asm
+   Uses
+      At line 12 in file find_largest.asm
+Comment: JUMP used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file find_largest.asm
+   Uses
+      None
+Comment: RESET unused
+3 symbols
+333 symbols in table

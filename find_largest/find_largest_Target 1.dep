@@ -1,0 +1,2 @@
+Dependencies for Project 'find_largest', Target 'Target 1': (DO NOT MODIFY !)
+F (.\find_largest.asm)(0x632E80C9)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "find_largest.lst" --xref -o "find_largest.o" --depend "find_largest.d")

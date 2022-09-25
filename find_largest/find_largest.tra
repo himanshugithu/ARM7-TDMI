@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'find_largest.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"find_largest.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "find_largest.o" 
+--strict --scatter "find_largest.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\find_largest.map" -o find_largest.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'find_largest.axf'
+### ADS-LD Command File: 'find_largest.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'find_largest.lnp', Handle=0x00000F48
+### Writing '.lnp' file
+### ADS-LD Command file 'find_largest.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
