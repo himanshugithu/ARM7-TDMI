@@ -4,7 +4,7 @@
 	MOV R1,0X01
 	MOV R4,#10
 JUMP	ADD R2,R0,R1
-    STRB R2,[R5],#1
+        STRB R2,[R5],#1
 	MOV R0,R1
 	MOV R1,R2
 	SUBS R4,R4,#1
