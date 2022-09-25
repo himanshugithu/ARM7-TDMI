@@ -1,0 +1,1 @@
+addarr.o: addarr.asm

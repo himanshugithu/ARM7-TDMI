@@ -1,0 +1,2 @@
+Dependencies for Project 'addarr', Target 'Target 1': (DO NOT MODIFY !)
+F (.\addarr.asm)(0x632E7598)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "addarr.lst" --xref -o "addarr.o" --depend "addarr.d")
