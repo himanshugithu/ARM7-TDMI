@@ -1,0 +1,84 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET,CODE,READONLY
+    2 00000000         
+    3 00000000 E3A00007        LDR              R0,=0X00000007 ; TAKE FIRST NUM
+                                                            BER (DIVIDENT)
+    4 00000004 E3A01002        LDR              R1,=0X00000002 ; TAKE SECOND NU
+                                                            MBER (DIVISOR)
+    5 00000008 E3A02000        LDR              R2,=0X00000000 ; INITIALIZE REG
+                                                            ISTER FOR QUOTIENT
+    6 0000000C E3510000        CMP              R1,0x00     ; COMPARE R1 WITH 0
+                                                            0 FOR EX(5/0=UNDEFI
+                                                            NE , 0/5= 0) 
+    7 00000010 0A000006        BEQ              STOP        ; ZERO FLAG SET AND
+                                                             JUMP TO LABLE "STO
+                                                            P"
+    8 00000014         
+    9 00000014 E1500001 
+                       JUMP    CMP              R0,R1       ; COMPARE R0 AND R1
+                                                             IF RO < R1 
+   10 00000018 4A000002        BMI              DONE        ; NEGATIVE FLAG SET
+                                                             JUMP TO LABLE "DON
+                                                            E"
+   11 0000001C E0400001        SUB              R0,R0,R1    ; SUBTRACT R0-R1 =>
+                                                             R0
+   12 00000020 E2822001        ADD              R2,R2,#01   ; INCREMENT R2 BY O
+                                                            NE FOR QUOTIENT
+   13 00000024 EAFFFFFA        B                JUMP        ; UNCONDITIONAL JUM
+                                                            P
+   14 00000028         
+   15 00000028 E1A07000 
+                       DONE    MOV              R7,R0       ; REMAINDER
+   16 0000002C E1A06002        MOV              R6,R2       ; QUOTIENT
+   17 00000030 E3A0A000 
+                       STOP    MOV              R10,0X00    ; DUMMY INSTRUCTION
+                                                            
+   18 00000034                 END
+Command Line: --debug --xref --apcs=interwork --depend=div.d -odiv.o -IC:\Keil_
+v5\ARM\RV31\INC -IC:\Keil_v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\Inc\Philips --l
+ist=div.lst div.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+DONE 00000028
+
+Symbol: DONE
+   Definitions
+      At line 15 in file div.asm
+   Uses
+      At line 10 in file div.asm
+Comment: DONE used once
+JUMP 00000014
+
+Symbol: JUMP
+   Definitions
+      At line 9 in file div.asm
+   Uses
+      At line 13 in file div.asm
+Comment: JUMP used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file div.asm
+   Uses
+      None
+Comment: RESET unused
+STOP 00000030
+
+Symbol: STOP
+   Definitions
+      At line 17 in file div.asm
+   Uses
+      At line 7 in file div.asm
+Comment: STOP used once
+4 symbols
+334 symbols in table

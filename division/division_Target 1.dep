@@ -1,0 +1,2 @@
+Dependencies for Project 'division', Target 'Target 1': (DO NOT MODIFY !)
+F (.\div.asm)(0x63222513)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC -I C:\Keil_v5\ARM\CMSIS\Include -I C:\Keil_v5\ARM\Inc\Philips --list "div.lst" --xref -o "div.o" --depend "div.d")
