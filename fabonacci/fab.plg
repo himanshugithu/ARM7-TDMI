@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Himyansu\ARM program\fabonacci\fab.uvproj
+Project File Date:  09/21/2022
+
+<h2>Output:</h2>
+assembling fab.asm...
+fab.asm(3): warning: A1865W: '#' not seen before constant expression
+fab.asm(4): warning: A1865W: '#' not seen before constant expression
+fab.asm - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+fab.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+fab.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=44 RO-data=0 RW-data=0 ZI-data=0  
+"fab.axf" - 0 Error(s), 2 Warning(s).

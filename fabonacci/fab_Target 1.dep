@@ -1,0 +1,2 @@
+Dependencies for Project 'fab', Target 'Target 1': (DO NOT MODIFY !)
+F (.\fab.asm)(0x632A0B29)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "fab.lst" --xref -o "fab.o" --depend "fab.d")

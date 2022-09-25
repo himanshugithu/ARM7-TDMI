@@ -1,0 +1,1 @@
+fab.o: fab.asm
