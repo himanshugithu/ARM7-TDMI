@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Himyansu\ARM program\evenodd\evenodd.uvproj
+Project File Date:  09/27/2022
+
+<h2>Output:</h2>
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(16): warning: A1313W: Missing END directive at end of file
+evenodd.asm(14): error: A1516E: Bad symbol 'BACK', not defined or external
+evenodd.asm - 1 Error(s), 4 Warning(s).
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(16): warning: A1313W: Missing END directive at end of file
+evenodd.asm - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+evenodd.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+evenodd.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+"evenodd.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(17): warning: A1313W: Missing END directive at end of file
+linking...
+evenodd.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+evenodd.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=52 RO-data=0 RW-data=0 ZI-data=0  
+"evenodd.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(18): error: A1106E: Missing comma
+evenodd.asm(20): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(20): warning: A1313W: Missing END directive at end of file
+linking...
+evenodd.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+evenodd.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=64 RO-data=0 RW-data=0 ZI-data=0  
+"evenodd.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(16): error: A1106E: Missing comma
+evenodd.asm(20): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(20): warning: A1313W: Missing END directive at end of file
+linking...
+evenodd.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+evenodd.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=0  
+"evenodd.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling evenodd.asm...
+evenodd.asm(3): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(4): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(5): warning: A1865W: '#' not seen before constant expression
+evenodd.asm(20): warning: A1313W: Missing END directive at end of file
+linking...
+evenodd.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+evenodd.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=0  
+"evenodd.axf" - 0 Error(s), 6 Warning(s).

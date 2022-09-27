@@ -1,0 +1,81 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET, CODE,READONLY
+    2 00000000         
+    3 00000000 E3A00000        MOV              R0,0X00     ; EVEN
+    4 00000004 E3A01000        MOV              R1,0X00     ; ODD
+    5 00000008 E3A0200A        MOV              R2,0X0A     ; COUNTER
+    6 0000000C E3A03101        LDR              R3,=0X40000000
+    7 00000010         
+    8 00000010 E4934004 
+                       BACK    LDR              R4,[R3],#4
+    9 00000014 E1B040E4        RORS             R4,#1
+   10 00000018 3A000001        BCC              EVEN
+   11 0000001C E2811001        ADD              R1,R1,#1
+   12 00000020 EA000000        B                JUMP
+   13 00000024 E2800001 
+                       EVEN    ADD              R0,R0,#1
+   14 00000028 E2522001 
+                       JUMP    SUBS             R2,R2,#1
+   15 0000002C 1AFFFFF7        BNE              BACK
+   16 00000030 E4830004        STR              R0,[R3],#4
+   17 00000034         ;ADD R3,R3,#1
+   18 00000034 E5831000        STR              R1,[R3]
+   19 00000038 EAFFFFFE 
+                       HERE    B                HERE
+                       
+Command Line: --debug --xref --apcs=interwork --depend=evenodd.d -oevenodd.o -I
+C:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --li
+st=evenodd.lst evenodd.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+BACK 00000010
+
+Symbol: BACK
+   Definitions
+      At line 8 in file evenodd.asm
+   Uses
+      At line 15 in file evenodd.asm
+Comment: BACK used once
+EVEN 00000024
+
+Symbol: EVEN
+   Definitions
+      At line 13 in file evenodd.asm
+   Uses
+      At line 10 in file evenodd.asm
+Comment: EVEN used once
+HERE 00000038
+
+Symbol: HERE
+   Definitions
+      At line 19 in file evenodd.asm
+   Uses
+      At line 19 in file evenodd.asm
+Comment: HERE used once
+JUMP 00000028
+
+Symbol: JUMP
+   Definitions
+      At line 14 in file evenodd.asm
+   Uses
+      At line 12 in file evenodd.asm
+Comment: JUMP used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file evenodd.asm
+   Uses
+      None
+Comment: RESET unused
+5 symbols
+335 symbols in table

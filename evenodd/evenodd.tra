@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'evenodd.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"evenodd.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "evenodd.o" 
+--strict --scatter "evenodd.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\evenodd.map" -o evenodd.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'evenodd.axf'
+### ADS-LD Command File: 'evenodd.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'evenodd.lnp', Handle=0x00000D44
+### Writing '.lnp' file
+### ADS-LD Command file 'evenodd.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
