@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'assendind.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"assending.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "assending.o" 
+--strict --scatter "assendind.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\assendind.map" -o assendind.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'assendind.axf'
+### ADS-LD Command File: 'assendind.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'assendind.lnp', Handle=0x000007D4
+### Writing '.lnp' file
+### ADS-LD Command file 'assendind.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

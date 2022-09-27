@@ -1,0 +1,1 @@
+assending.o: assending.asm

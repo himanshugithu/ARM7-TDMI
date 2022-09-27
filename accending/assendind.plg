@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Himyansu\ARM program\accending\assendind.uvproj
+Project File Date:  09/27/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+Target has no object modules
+Target not created
+assembling assending.asm...
+assending.asm(3): warning: A1865W: '#' not seen before constant expression
+assending.asm(4): warning: A1865W: '#' not seen before constant expression
+assending.asm - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+assendind.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+assendind.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=64 RO-data=0 RW-data=0 ZI-data=0  
+"assendind.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+assendind.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+assendind.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=64 RO-data=0 RW-data=0 ZI-data=0  
+"assendind.axf" - 0 Error(s), 2 Warning(s).

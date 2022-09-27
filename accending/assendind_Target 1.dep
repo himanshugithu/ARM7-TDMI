@@ -1,0 +1,2 @@
+Dependencies for Project 'assendind', Target 'Target 1': (DO NOT MODIFY !)
+F (.\assending.asm)(0x6333163E)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "assending.lst" --xref -o "assending.o" --depend "assending.d")
