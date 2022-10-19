@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Himyansu\ARM program\block transfer\block_transfer.uvproj
+Project File Date:  10/15/2022
+
+<h2>Output:</h2>
+assembling block_transfer.asm...
+block_transfer.asm(4): warning: A1865W: '#' not seen before constant expression
+block_transfer.asm(11): warning: A1313W: Missing END directive at end of file
+block_transfer.asm - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+block_transfer.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+block_transfer.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=32 RO-data=0 RW-data=0 ZI-data=0  
+"block_transfer.axf" - 0 Error(s), 2 Warning(s).
+assembling block_transfer.asm...
+block_transfer.asm(4): warning: A1865W: '#' not seen before constant expression
+block_transfer.asm(11): warning: A1313W: Missing END directive at end of file
+block_transfer.asm - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+block_transfer.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+block_transfer.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+"block_transfer.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling OR.asm...
+OR.asm(3): warning: A1865W: '#' not seen before constant expression
+OR.asm(4): warning: A1865W: '#' not seen before constant expression
+OR.asm(8): warning: A1313W: Missing END directive at end of file
+linking...
+block_transfer.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+"block_transfer.axf" - 1 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+block_transfer.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+"block_transfer.axf" - 1 Error(s), 0 Warning(s).
+assembling OR.asm...
+OR.asm(3): warning: A1865W: '#' not seen before constant expression
+OR.asm(4): warning: A1865W: '#' not seen before constant expression
+OR.asm(8): warning: A1313W: Missing END directive at end of file
+OR.asm - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling block_transfer.asm...
+block_transfer.asm(4): warning: A1865W: '#' not seen before constant expression
+block_transfer.asm(11): warning: A1313W: Missing END directive at end of file
+assembling OR.asm...
+OR.asm(3): warning: A1865W: '#' not seen before constant expression
+OR.asm(4): warning: A1865W: '#' not seen before constant expression
+OR.asm(8): warning: A1313W: Missing END directive at end of file
+linking...
+block_transfer.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+"block_transfer.axf" - 1 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+block_transfer.sct(7): error: L6235E: More than one section matches selector - cannot all be FIRST/LAST.
+"block_transfer.axf" - 1 Error(s), 0 Warning(s).
+assembling block_transfer.asm...
+block_transfer.asm(3): warning: A1865W: '#' not seen before constant expression
+block_transfer.asm(4): warning: A1865W: '#' not seen before constant expression
+block_transfer.asm(8): warning: A1313W: Missing END directive at end of file
+block_transfer.asm - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+block_transfer.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+block_transfer.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=16 RO-data=0 RW-data=0 ZI-data=0  
+"block_transfer.axf" - 0 Error(s), 2 Warning(s).

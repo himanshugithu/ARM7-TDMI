@@ -1,0 +1,2 @@
+Dependencies for Project 'block_transfer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\block_transfer.asm)(0x634AE881)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "block_transfer.lst" --xref -o "block_transfer.o" --depend "block_transfer.d")

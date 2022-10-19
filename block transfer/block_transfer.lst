@@ -1,0 +1,42 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET, CODE, READONLY
+    2 00000000         
+    3 00000000 E3A00009        MOV              R0,0X09
+    4 00000004 E3A01006        MOV              R1,0X06
+    5 00000008         
+    6 00000008 E1801001        ORR              R1,R0,R1
+    7 0000000C EAFFFFFE 
+                       HERE    B                HERE
+                       
+Command Line: --debug --xref --apcs=interwork --depend=block_transfer.d -oblock
+_transfer.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\In
+c\Philips --list=block_transfer.lst block_transfer.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+HERE 0000000C
+
+Symbol: HERE
+   Definitions
+      At line 7 in file block_transfer.asm
+   Uses
+      At line 7 in file block_transfer.asm
+Comment: HERE used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file block_transfer.asm
+   Uses
+      None
+Comment: RESET unused
+2 symbols
+332 symbols in table

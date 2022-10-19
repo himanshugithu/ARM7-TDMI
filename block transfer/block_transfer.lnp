@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "block_transfer.o" 
+--strict --scatter "block_transfer.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\block_transfer.map" -o block_transfer.axf
